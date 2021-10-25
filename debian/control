@@ -1,0 +1,15 @@
+Source: zimbra-certificate-manager-store
+Section: mail
+Priority: optional
+Build-Depends: debhelper (>=9), ant, ant-contrib, git, default-jdk, ivy,
+  zimbra-common-core-dev
+Standards-Version: 3.9.6
+Maintainer: Enrico Weigelt, metux IT consult <info@metux.net>
+Uploaders: Enrico Weigelt, metux IT consult <info@metux.net>
+
+Package: zimbra-certificate-manager-store
+Section: mail
+Priority: optional
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: LibreZimbra certificate manager extension
