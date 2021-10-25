@@ -1,6 +1,6 @@
 <project name="zm-certificate-manager-store" default="jar" xmlns:ivy="antlib:org.apache.ivy.ant">
 
-  <import file="../zm-zcs/ant-global.xml"/>
+  <import file="ant-global.xml"/>
 
   <property file="build.properties"/>
 
